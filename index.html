@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>❤quieres ser mi novia❤</title>
+
+</head>
+<style>
+    .body {
+        background-color: crimson;
+        text-align: center;
+    }
+
+    .body__title {
+        color: white;
+    }
+
+    .body__img {
+        width: 100%;
+        border-radius: 50%;
+    }
+</style>
+
+<body class="body">
+    <h1 class="body__title">❤quieres ser mi novia❤</h1>
+    <img src="https://vanguardia.com.mx/binrepository/1152x691/0c22/1152d648/down-right/11604/KOFA/images_18_4_VG3500262_MG1138576.jpg"
+        alt="foto meme" class="body__img">
+    <button id="yes">😘 Claro que si 😘</button>
+    <button id="no">😫 No 😫</button>
+
+    <script>
+        const botonSi = document.getElementById('yes')
+        const botonNo = document.getElementById('no')
+
+        const somosNovios = () => {
+            alert('💑 NoW ZoMos Novi0s 💑');
+            alert('😱NuestrA bodA sEra mAñaNa 😱');
+            location.href = 'https://www.youtube.com/watch?v=am1_JLFDFMw&t=19s';
+        }
+
+        const ebitarKCRompaMyBobo = () => {
+            botonNo.style.position = 'absolute';
+            botonNo.style.top = (Math.random() * window.innerHeight) + 'px';
+            botonNo.style.left = (Math.random() * window.innerWidth) + 'px';
+        }
+
+        botonSi.addEventListener('click', somosNovios);
+        botonNo.addEventListener('mouseover', ebitarKCRompaMyBobo);
+    </script>
+</body>
+
+</html>
